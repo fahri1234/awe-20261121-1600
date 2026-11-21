@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const relaxation = "Beyond the dark pine ridge, starlight older than the mountains rests on a still lake. Each silver ripple widens, slows, and fades, while the whole patient sky drifts gently in the water.";
+const relaxation = "You sleep on the night train, your cheek to cool glass.\nClack. A long hush. Clack.\nSnow fills the tracks behind.\nAbove town, a glacier carries one blue stone\ntoward a sea it has not seen.\nIt will still be moving when you are home.\nThe carriage rocks. The mountain takes its time.";
 
 const codePointCount = Array.from(relaxation).length;
 if (codePointCount < 1 || codePointCount > 280) {
